@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"target": "ESNext",
+		"moduleResolution": "Node",
+		"outDir": "dst",
+		"strict": false,
+		"paths": {
+			"@components/*": ["./src/_components/*"],
+			"@eleventy.types": ["./eleventy.types.ts"]
+		},
+		"jsx": "react-jsx",
+		"jsxImportSource": "jsx-async-runtime"
+	},
+	"include": ["src", "src/_components"],
+	"exclude": ["node_modules", "dst"]
+}
