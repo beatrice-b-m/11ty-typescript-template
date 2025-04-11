@@ -16,6 +16,8 @@
 		"jsx-async-runtime": "^0.1.3"
 	},
 	"devDependencies": {
+		"@shopify/prettier-plugin-liquid": "^1.9.2",
+		"prettier": "^3.5.3",
 		"tsx": "^4.19.3"
 	}
 }
